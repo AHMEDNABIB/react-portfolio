@@ -22,7 +22,7 @@ const Navbar = () => {
 				<img src={Logo} alt="Logo Image" style={{ width: "200px" }} />
 			</div> */}
 
-			<ul className="md:flex gap-5 mx-5">
+			<ul className="md:flex  mx-5">
 				<li>Home</li>
 				<li>About</li>
 				<li>Skills</li>
