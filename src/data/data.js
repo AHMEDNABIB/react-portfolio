@@ -2,6 +2,9 @@
 import Food from '../assets/projects/food.jpg'
 import Wild from '../assets/projects/wild.jpg'
 import Recipe from '../assets/projects/recipe.jpg'
+import News from '../assets/projects/news.jpg'
+import Ema from '../assets/projects/ema.jpg'
+import Bank from '../assets/projects/bank.jpg'
 
 
 export const data = [
@@ -25,5 +28,28 @@ export const data = [
 		image: Recipe,
 		github: "https://github.com/AHMEDNABIB/food-reciepe",
 		live: "https://food-recipe-hut.netlify.app/#5ed6604591c37cdc054bca3b",
+	},
+	{
+		id: 4,
+		name: "MERN Stack Application",
+		image: News,
+		github: "https://github.com/AHMEDNABIB/react-news",
+		live: "https://react-news-1234.netlify.app/category/0",
+	},
+
+	{
+		id: 5,
+		name: "React Application",
+		image: Ema,
+		github: "https://github.com/AHMEDNABIB/firebase-auth",
+		live: "https://heroic-baklava-c2ebab.netlify.app/",
+	},
+
+	{
+		id: 6,
+		name: "Javascript Application",
+		image: Bank,
+		github: "https://github.com/AHMEDNABIB/dom_banklist",
+		live: "https://dom-bank.netlify.app/",
 	},
 ];
